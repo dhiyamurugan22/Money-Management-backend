@@ -1,0 +1,36 @@
+{
+  "name": "money-management-backend",
+  "version": "1.0.0",
+  "description": "The backend for the Money Tracker mobile application, responsible for processing income and expense transactions, automatically categorizing transactions, and providing monthly financial analysis.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhiyamurugan22/Money-Management-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dhiyamurugan22/Money-Management-backend/issues"
+  },
+  "homepage": "https://github.com/dhiyamurugan22/Money-Management-backend#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
